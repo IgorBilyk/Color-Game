@@ -1,0 +1,77 @@
+body{
+	padding: 0;
+	margin: 0; 
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+p{
+	padding: 0;
+	margin: 0;
+	font-size: 23px;
+	letter-spacing: 3px;
+}
+.col-{
+	padding: 0;
+}
+.header{
+	min-height: 258px;
+	background-color: #3C76AE;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header p:nth-of-type(1){
+	font-size: 26px;
+	
+}
+.header p:nth-of-type(2){
+	font-size: 36px
+
+	
+}
+.header p:nth-of-type(3){
+	font-size: 26px;
+	
+}
+
+.congText{
+	font-size: 27px;
+	font-weight: 400;
+	color: transparent;
+	text-transform: uppercase;
+	transition: 1s ease;
+
+}
+.main-block{
+	background-color: #201F20;
+	height: 665px;
+}
+.block{
+	height: 150px;
+	border-radius: 20px;
+	
+}
+.second-block{
+	height: 150px;
+	border-radius: 20px;
+	background-color: grey;
+}
+.noneDisplay{
+	background-color: transparent;
+	transition: 1s;
+}
+
+button{
+	text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 500px) {
+	.btnRight{
+		
+
+	}
+ 
+
+}

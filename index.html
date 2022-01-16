@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Color Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<div class="container-fluid header">
+	<div class="row justify-content-center">
+		<div class="col-12 col-lg-4 text-center">
+			<header>
+				<p>The Great</p><br>
+				<p><span id="rgbColor"></span></p><br>
+				<p>Guessing game</p><br>
+				<p class="congText">CONGRATULATION YOU WIN !!!</p>
+				<p class="counterText"></p>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="container buttons-section">
+	<div class="row justify-content-between">
+		<div class="col-4"><button class="btn  btn-lg btn-success" id="newGame">new game</button></div>
+		<div class="col-6 col-sm-4 col-lg-4">
+			<div class="row justify-content-end">
+					<div class="col-5 col-lg-3 justify-content-start"><button class="ml-2 btn btn-lg btn-primary btnRight" id="easyGame">easy</button></div>
+					<div class="col-5 col-lg-3"><button class=" mr-2 btn btn-lg btn-danger btnRight" id="hardGame">hard</button></div>
+		    </div>
+		</div>
+	</div>
+</div>
+<div class="wrraper main-block">
+	<div class="container">
+		<div class="row justify-content-center">
+					<div class="col-12 col-lg-6 ">
+						<div class="row justify-content-around mt-3 wrapper-divs">
+							<div class="col-4 col-sm-3 col-lg-3 block block-1"></div>
+							<div class="col-4 col-sm-3 col-lg-3 block block-2"></div>
+							<div class="col-4 col-sm-3 col-lg-3 block block-3"></div>
+												
+						</div>
+						<div class="row justify-content-around mt-3">
+							<div class=" col-4 col-sm-3 col-lg-3 second-block block-4"></div>
+							<div class=" col-4 col-sm-3 col-lg-3 second-block block-5"></div>
+							<div class=" col-4 col-sm-3 col-lg-3 second-block block-6"></div>
+					
+						</div>
+					</div>
+	
+		</div>
+	</div>
+</div>
+	<script src="app.js" defer></script>
+</body>
+</html>
