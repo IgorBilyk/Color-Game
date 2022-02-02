@@ -67,10 +67,10 @@ button{
 }
 
 
-@media screen and (max-width: 500px) {
-	.btnRight{
-		
 
+@media only screen and (max-width: 700px) {
+	.buttons-wrapper{
+		justify-content: center;
 	}
  
 
